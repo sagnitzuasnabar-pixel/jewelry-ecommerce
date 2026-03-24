@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart Summary Malandra</title>
+
+	<link rel = "stylesheet" href = "cart-summary.css">
+
+   <!--FONT Montserrat-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class = "page-header">  
+    <a href ="../../index.html">
+      <img class = "logo-malandra" src="../../assets/LogoMalandra.webp" alt = "logo-malandra"/>
+    </a>  
+    
+		<button class="right-header">
+			<img src="../../assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "arrow-back-black-icon">
+			<span>Seguir comprando</span>
+		</button>
+  </header>	
+
+	<div class = "cart-header">
+		<div class = "cart-tittle">
+			<h2>CARRITO DE COMPRAS</h2>
+		</div>
+		<span class = "cart-count">1 Producto en el carrito</span>
+	</div>
+
+	<div class = "cart-page">
+		<div id="cart-table">
+			<!--CAMPOS DE LA TABLA-->
+			<div class="cart-header-row">
+				<span>Producto</span>
+				<div class = "cart-header-row-right">
+					<span>Envío</span>
+    			<span>Precio</span>
+    			<span>Cantidad</span>
+    			<span>Total</span>
+				</div>
+
+			</div>
+
+			<div id = "cart-items-container">
+
+			</div>
+		</div>
+		<!--CART SUMMARY PART -->
+		<div class="cart-summary">
+    	<h2>Resumen</h2>
+
+    	<div class="summary-row">
+      	<span>Subtotal</span>
+      	<span id="subtotal">S/ 0.00</span>
+    	</div>
+
+    	<div class="summary-row-total">
+      	<strong>Total</strong>
+      	<strong id="total">S/ 0.00</strong>
+    	</div>
+
+    	<button id="btn-pay">Pagar</button>
+  	</div>
+
+	</div>
+
+	<div class="payment-overlay" id="payment-overlay">
+  <div class="payment-modal">
+    <img src="../../assets/check_circle.png"/>		
+		<h3>¡Pago exitoso!</h3>
+		<p>Su transacción ha sido completada</p>
+		<button id="btn-done"> Aceptar</button>
+    <a href="../../index.html">Seguir comprando</a>
+  </div>
+</div>
+
+	
+</body>
+</html>
