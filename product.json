@@ -1,0 +1,370 @@
+[
+  {
+    "id": "sunstone-01",
+    "nombre": "SUNSTONE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/SUNSTONEBEADEDNECKLACE.png?v=1773846710&width=5000",
+    "precio": 83.9,
+    "categoria": [
+      "new-arrivals",
+      "collares"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "green-agate-01",
+    "nombre": "GREEN BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/GREENAGATEBEADEDNECKLACE.png?v=1773846921&width=5000",
+    "precio": 83.9,
+    "categoria": [
+      "new-arrivals",
+      "collares"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "malachite-01",
+    "nombre": "MALACHITE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/MALACHITEBEADEDNECKLACE.png?v=1773846854&width=5000",
+    "precio": 83.9,
+    "categoria": [
+      "new-arrivals",
+      "collares"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "pearl-01",
+    "nombre": "PEARL BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/PEARLBEADEDNECKLACE.png?v=1773846811&width=5000",
+    "precio": 88.9,
+    "categoria": [
+      "new-arrivals",
+      "collares"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "aquamarine-01",
+    "nombre": "AQUAMARINE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/AQUAMARINEBEADEDNECKLACE.png?v=1773847117&width=5000",
+    "precio": 88.9,
+    "categoria": [
+      "new-arrivals",
+      "collares"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "crystal-spark-01",
+    "nombre": "CRYSTAL SPARK TENNIS BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/crystal-spark-tennis-bracelet-pulseras-fbp510-1epu0071-1rp-2-fb-8162665.png?v=1773160420&width=5000",
+    "precio": 171.5,
+    "categoria": [
+      "plata-925",
+      "pulseras"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "trinity-cross-01",
+    "nombre": "TRINITY CROSS SPARK BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/trinity-cross-spark-bracelet-pulseras-fbp509-1epu0065-1rp-2-fb-6068676.png?v=1773160423&width=5000",
+    "precio": 121.2,
+    "categoria": [
+      "plata-925",
+      "pulseras"
+    ],
+    "stock": 1
+  },
+  {
+    "id": "cross-duo-01",
+    "nombre": "CROSS DUO SPARK NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/cross-duo-spark-necklace-collares-fbc507-1ecl0071-1rp-2-fb-2697715.png?v=1773160423&width=5000",
+    "precio": 121.2,
+    "categoria": [
+      "plata-925",
+      "collares"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "twinkle-star-01",
+    "nombre": "TWINKLE STAR SPARK NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/twinkle-star-spark-necklace-collares-fbc506-1ecl0068-1rp-2-fb-7925339.png?v=1773397688&width=5000",
+    "precio": 121.2,
+    "categoria": [
+      "plata-925",
+      "collares"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "double-heart-01",
+    "nombre": "DOUBLE HEART SPARK NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/double-heart-spark-necklace-collares-fbc505-1ecl0066-1rp-2-fb-6628439.png?v=1773160422&width=5000",
+    "precio": 132.8,
+    "categoria": [
+      "plata-925",
+      "collares"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "blue-agate-01",
+    "nombre": "BLUE AGATE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/blue-agate-beaded-necklace-collares-tc2300eyhc13-taller-5545472.png?v=1773921552&width=5000",
+    "precio": 83.5,
+    "categoria": "collares",
+    "stock": 3
+  },
+  {
+    "id": "soft-morganite-01",
+    "nombre": "SOFT MORGANITE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/soft-morganite-beaded-necklace-collares-tc2303-eyhc13-taller-2982417.png?v=1773921559&width=5000",
+    "precio": 87.2,
+    "categoria": "collares",
+    "stock": 2
+  },
+  {
+    "id": "radiant-cross-01",
+    "nombre": "RADIANT CROSS SPARK HOOPS",
+    "imagen": "https://malandra.mx/cdn/shop/files/radiant-cross-spark-hoops-aretes-fba500-1ear0244-1rr-2-fb-5136385.png?v=1773160424&width=5000",
+    "precio": 115,
+    "categoria": "aretes",
+    "stock": 2
+  },
+  {
+    "id": "milano-brilliant-01",
+    "nombre": "MILANO BRILLIANT HOOPS",
+    "imagen": "https://malandra.mx/cdn/shop/files/milano-brilliant-hoops-aretes-fba499-1ear0240-1rr-2-fb-5695726.png?v=1773160425&width=5000",
+    "precio": 83.9,
+    "categoria": "aretes",
+    "stock": 2
+  },
+  {
+    "id": "crystal-glam-01",
+    "nombre": "CRYSTAL SPARK GLAM HOOPS",
+    "imagen": "https://malandra.mx/cdn/shop/files/crystal-spark-glam-hoops-aretes-fba498-1ear0237-1rr-2-fb-4044066.png?v=1773160426&width=5000",
+    "precio": 87.9,
+    "categoria": "aretes",
+    "stock": 2
+  },
+  {
+    "id": "milano-sweetheart-01",
+    "nombre": "MILANO SWEETHEART EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/milano-sweetheart-earrings-aretes-fba496-1ear0194-1rr-2-fb-3445863.png?v=1773160426&width=5000",
+    "precio": 68.2,
+    "categoria": "aretes",
+    "stock": 1
+  },
+  {
+    "id": "divine-cross-01",
+    "nombre": "DIVINE SPARK CROSS EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/divine-spark-cross-earrings-aretes-fba495-1ear0184-1rr-2-fb-5428776.png?v=1773160426&width=5000",
+    "precio": 115,
+    "categoria": "aretes",
+    "stock": 3
+  },
+  {
+    "id": "twinkle-spark-01",
+    "nombre": "TWINKLE SPARK EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/twinkle-spark-earrings-aretes-fba494-1ear0180-1rr-2-fb-5817353.png?v=1773160427&width=5000",
+    "precio": 68.2,
+    "categoria": "aretes",
+    "stock": 2
+  },
+  {
+    "id": "heart-spark-01",
+    "nombre": "HEART SPARK EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/heart-spark-earrings-aretes-fba493-1ear0173-1rr-2-fb-6791291.png?v=1773160427&width=5000  ",
+    "precio": 68.2,
+    "categoria": "aretes",
+    "stock": 3
+  },
+  {
+    "id": "three-drop-01",
+    "nombre": "THREE DROP SPARKLE HOOPS",
+    "imagen": "https://malandra.mx/cdn/shop/files/three-drop-sparkle-hoops-aretes-euwa385-jde0311184-e-uw-5408388.png?v=1772275330&width=5000",
+    "precio": 58.5,
+    "categoria": "aretes",
+    "stock": 1
+  },
+  {
+    "id": "abstract-glow-01",
+    "nombre": "ABSTRACT GLOW EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/abstract-glow-earrings-aretes-euwa379-jde0311321-e-uw-2637657.png?v=1772275331&width=5000 ",
+    "precio": 48.6,
+    "categoria": "aretes",
+    "stock": 2
+  },
+  {
+    "id": "golden-wave-01",
+    "nombre": "GOLDEN WAVE BOLD EARRINGS",
+    "imagen": "https://malandra.mx/cdn/shop/files/golden-wave-bold-earrings-aretes-aa1578-t32120-a-7469492.png?v=1772061788&width=5000",
+    "precio": 38.9,
+    "categoria": "aretes",
+    "stock": 1
+  },
+  {
+    "id": "tennis-heart-01",
+    "nombre": "TENNIS HEART LUXE BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/tennis-heart-luxe-bracelet.png",
+    "precio": 56.5,
+    "categoria": "pulseras",
+    "stock": 3
+  },
+  {
+    "id": "tennis-round-01",
+    "nombre": "TENNIS ROUND RADIANCE BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/tennis-round-radiance-bracelet-pulseras-euwp381-jdb0311105-e-uw-5999164.png?v=1773921559&width=5000",
+    "precio": 56.5,
+    "categoria": "pulseras",
+    "stock": 2
+  },
+  {
+    "id": "tennis-oval-01",
+    "nombre": "TENNIS OVAL GLOW BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/tennis-oval-glow-bracelet-pulseras-euwp380-jdb0311104-e-uw-5240237.png?v=1772275329&width=5000",
+    "precio": 56.5,
+    "categoria": "pulseras",
+    "stock": 1
+  },
+  {
+    "id": "lumina-bar-01",
+    "nombre": "LUMINA BAR GOLD BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/lumina-bar-gold-bracelet-aretes-euwp378-jdb0307039-e-uw-1153396.png?v=1772275330&width=5000",
+    "precio": 58.5,
+    "categoria": "pulseras",
+    "stock": 3
+  },
+  {
+    "id": "oval-glow-01",
+    "nombre": "OVAL GLOW GOLD BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/oval-glow-gold-bracelet-aretes-euwp377-jdb0307047-e-uw-1585729.png?v=1772275330&width=5000",
+    "precio": 58.5,
+    "categoria": "pulseras",
+    "stock": 2
+  },
+  {
+    "id": "smooth-curve-01",
+    "nombre": "SMOOTH CURVE BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/smooth-curve-bracelet-aretes-euwp376-jdb2405015-e-uw-2016843.png?v=1772275329&width=5000",
+    "precio": 56.5,
+    "categoria": "pulseras",
+    "stock": 1
+  },
+  {
+    "id": "wavy-luxe-01",
+    "nombre": "WAVY LUXE BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/wavy-luxe-bracelet-aretes-euwp375-jdb0307048-e-uw-8086115.png?v=1772275329&width=5000",
+    "precio": 68.2,
+    "categoria": "pulseras",
+    "stock": 2
+  },
+  {
+    "id": "chalcedony-gratitude-01",
+    "nombre": "CHALCEDONY GRATITUDE BRACELET",
+    "imagen": "https://malandra.mx/cdn/shop/files/chalcedony-gratitude-bracelet.pnghttps://malandra.mx/cdn/shop/files/chalcedony-gratitude-bracelet-pulseras-tp2273-taller-1837829.png?v=1771481767&width=5000",
+    "precio": 48.6,
+    "categoria": "pulseras",
+    "stock": 3
+  },
+  {
+    "id": "ring-lux-spark-01",
+    "nombre": "LUX SPARK RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/lux-spark-ring-anillos-fbr4927-1ean0097-1r7p-2-fb-5770736.png?v=1773160427&width=5000",
+    "precio": 113.4,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "ring-delicate-spark-02",
+    "nombre": "DELICATE SPARK RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/delicate-spark-ring-anillos-fbr4917-1ean0093-1r7p-2-fb-5906847.png?v=1773160431&width=5000",
+    "precio": 102.4,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "ring-radiant-heart-03",
+    "nombre": "RADIANT HEART SPARK RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/radiant-heart-spark-ring-anillos-fbr4907-1ean0092-1rp-2-fb-5627169.png?v=1773160430&width=5000",
+    "precio": 86.9,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "ring-royal-spark-04",
+    "nombre": "ROYAL SPARK RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/royal-spark-ring-anillos-fbr4897-1ean0090-1rp-2-fb-4989460.png?v=1773160431&width=5000",
+    "precio": 102.4,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "ring-delicate-crystal-05",
+    "nombre": "DELICATE CRYSTAL SPARK RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/delicate-crystal-spark-ring-anillos-fbr488-1ean0089-1rp-2-fb-9320563.png?v=1773160430&width=5000",
+    "precio": 86.9,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "ring-classic-milano-06",
+    "nombre": "CLASSIC SPARK MILANO RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/classic-spark-milano-ring.pnghttps://malandra.mx/cdn/shop/files/classic-spark-milano-ring-anillos-fbr4867-1ean0002-r7-p-fb-5452519.png?v=1773160432&width=5000",
+    "precio": 133.4,
+    "categoria": [
+      "plata-925",
+      "anillos"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "ring-modern-band-07",
+    "nombre": "MODERN BAND RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/modern-band-ring-anillos-vcr2585-2002-vc-2920143.png?v=1772061815&width=5000",
+    "precio": 56,
+    "categoria": "anillos",
+    "stock": 2
+  },
+  {
+    "id": "ring-flat-edge-08",
+    "nombre": "FLAT EDGE RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/flat-edge-ring-anillos-vcr2575-2004-vc-4622967.png?v=1772061801&width=5000",
+    "precio": 75.2,
+    "categoria": "anillos",
+    "stock": 3
+  },
+  {
+    "id": "ring-dual-halo-09",
+    "nombre": "DUAL HALO GLEAM RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/dual-halo-gleam-ring-anillos-euwr356-jdr0310006-e-uw-5681982.png?v=1770901877&width=5000",
+    "precio": 57.9,
+    "categoria": "anillos",
+    "stock": 2
+  },
+  {
+    "id": "ring-timeless-flow-10",
+    "nombre": "TIMELESS FLOW RING",
+    "imagen": "https://malandra.mx/cdn/shop/files/timeless-flow-ring-anillos-euwr355-jdr0310005-e-uw-5062692.png?v=1770901879&width=5000",
+    "precio": 57.9,
+    "categoria": "anillos",
+    "stock": 3
+  }
+]
