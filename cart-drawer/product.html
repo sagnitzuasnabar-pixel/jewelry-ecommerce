@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Product Malandra</title>
+
+  <link rel = "stylesheet" href = "../styles.css" >
+  <link rel = "stylesheet" href = "./product.css" ><!--CSS cart-drawer-->
+
+   <!--FONT Montserrat-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class = "page-header">  
+    <a href ="../index.html">
+      <img class = "logo-malandra" src="../../assets/LogoMalandra.webp" alt = "logo-malandra"/>
+    </a>  
+    
+    <nav class = "nav-links">
+      <a>BEST SELLERS</a>
+      <a>NEW ARRIVALS</a>
+      <a>CATEGORÍAS</a>
+      <a>ONLY at MALANDRA</a>
+      <a>REGALOS</a>
+      <a>MÁS COLECCIONES</a>
+      <a>40% OFF</a>
+    </nav>
+
+    <div class ="header-actions">
+      <img src="../../assets/person_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "person-icon" />
+      <img src="../../assets/search_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg  " alt = "search_icon"  />
+      <button class = "bag-btn" id ="open-cart">
+        <div class="bag-wrapper">
+          <img src="../../assets/shopping_bag_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt="shoppin-bag-icon" />
+          <span>0</span>
+        </div>  
+      </button>
+ 
+    </div>
+  </header>
+
+  <main class = "principal-container">
+    <nav class = "breadcrumb">
+      <a href = "http://127.0.0.1:5500/index.html">Inicio</a>
+      <img src = "../../assets/arrow_forward_ios_20dp_666666_FILL0_wght200_GRAD0_opsz20.svg" />
+      <a href = "http://127.0.0.1:5500/index.html">NEW ARRIVALS</a>
+      <img src = "../../assets/arrow_forward_ios_20dp_666666_FILL0_wght200_GRAD0_opsz20.svg" />
+      <a href = "http://127.0.0.1:5500/index.html">SUNSTONE BEADED NECKLACE</a>
+    </nav>
+
+    <section class="product-detail">
+      <div class = "product-gallery">
+        <img src = "https://malandra.mx/cdn/shop/files/sunstone-beaded-necklace-collares-tc2294-eyhc13-taller-7910131.png?v=1773921557&width=5000" alt = "product-card-sunstone"/>
+        <div class = "thumnail-picture">
+          <img src = "https://malandra.mx/cdn/shop/files/sunstone-beaded-necklace-collares-tc2294-eyhc13-taller-7910131.png?v=1773921557&width=5000" alt = "preview-jewelry"/>
+          <img src = "https://malandra.mx/cdn/shop/files/sunstone-beaded-necklace-collares-tc2294-eyhc13-taller-8667605.png?v=1773921557&width=5000" alt = "preview-jewelry-body"/>
+          <img src = "https://malandra.mx/cdn/shop/files/sunstone-beaded-necklace-collares-tc2294-eyhc13-taller-3855096.png?v=1773921557&width=5000" alt = "picture-jewelry"/>
+          <img src = "https://malandra.mx/cdn/shop/files/referencia-medidas-collares.jpg?v=1773848123&width=5000" alt = "size-jewelry"/>        
+        </div>
+      </div>
+      
+      <div class = "product-info">
+        <h1>SUNSTONE BEADED NECKLACE</h1>
+        <p>S/. 83.90</p>
+
+        <div class ="product-quantity">
+          <h4>Cantidad</h4>
+          <div class = "interactive-quantity">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+        
+        </div>
+        
+        <div class = "btn-cart">
+          <button class = "btn-add-cart">AÑADIR AL CARRITO</button>
+        </div>
+
+        <ul class ="product-features">
+          <li><img src = "../../assets/favorite_24dp_666666_FILL0_wght200_GRAD0_opsz24.svg"/>Diseños que elevan tu look.</li>
+          <li><img src= "../../assets/license_24dp_666666_FILL0_wght200_GRAD0_opsz24.svg"/>Garantía en cada compra.</li>
+          <li><img src= "../../assets/local_shipping_24dp_666666_FILL0_wght200_GRAD0_opsz24.svg"/>Envío gratis arriba de S/. 230.</li>
+          <li><img src= "../../assets/lock_24dp_666666_FILL0_wght200_GRAD0_opsz24.svg"/>Compra 100% segura y cifrada.</li>
+          <li><img src= "../../assets/location_on_24dp_666666_FILL0_wght200_GRAD0_opsz24.svg"/>Pick up en tienda física.</li>
+        </ul>
+        <section class ="dropdown-info">
+          <div class = "drop-info">
+            <p>Descripción</p>
+            <span>+</span>
+          </div>
+          <div class = "drop-info">
+            <p>Garantías</p>
+            <span>+</span> 
+          </div>
+        </section>
+
+        <section class = "methods-pay">
+          <h4>MÉTODOS DE PAGO</h4>
+          <div class ="pictures-method-pay">
+            <img src ="https://static.vecteezy.com/system/resources/thumbnails/020/975/570/small/visa-logo-visa-icon-transparent-free-png.png" alt ="pay-method-visa"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1280px-MasterCard_Logo.svg.png" alt ="pay-method-mastercard"/>
+            <img src ="https://proveedores.niubiz.com.pe/assets/media/logos/logo.png" alt = "pay-method-niubiz"/>
+            <img src ="https://upload.wikimedia.org/wikipedia/commons/0/08/Icono_de_la_aplicaci%C3%B3n_Yape.png" alt = "pay-method-yape"/>
+            <img src ="https://images.seeklogo.com/logo-png/38/1/plin-logo-png_seeklogo-386806.png" alt = "pay-method-plin"/>
+          </div>
+       
+        </section>
+      </div>
+    </section>
+  
+    <div class="cart-drawer" id="cart-drawer">
+      
+      <div class="cart-drawer-header">
+        <h2>Carrito</h2>
+        <button id="close-cart">X</button>
+      </div>
+
+      <div class="cart-drawer-body" id="cart-body">
+        <p>¡Agrega S/. 230 para obtener un <strong>Envío GRATIS!</strong></p>
+        <div class="shipping-progress">
+          <div class="shipping-bar">
+            <div class="shipping-bar-fill"></div>
+          </div>
+        
+          <div class="shipping-icon">
+            <img src="../../assets/delivery_truck_speed_24dp_6E6E6E_FILL0_wght200_GRAD0_opsz24.svg" alt="envio"/>
+          </div>
+          <span id="shipping-label">ENVÍO GRATIS</span>
+        </div>
+
+ 
+        <div class = "cart-container">
+          <p id = "empty-cart" >!No hay productos en tu carrito!</p>
+        </div>
+      </div>
+
+      <div class ="cart-drawer-footer">
+        <div class="gift-bag">
+          <p>Hazlo aún más especial con bolsa de regalo</p>
+          <h3>Agrega una Bolsa de Regalo</h3>
+          <div class = "gift-bag-product">
+            <img src = "https://cdn.shopify.com/s/files/1/2128/7599/products/bolsa-de-regalo-gift-wrap-bolsach-malandra-jewelry-128250.jpg?v=1686601328&height=180" alt ="shopping-bag-gift" />
+            <div class ="gift-bag-info">
+              <h5>BOLSA DE REGALO</h5>
+              <span>S/. 6.00</span>
+              <button class="btn-add-gift">Add</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+  </main>
+
+</body>
+
+<script src ="./product.js"></script>
+</html>
