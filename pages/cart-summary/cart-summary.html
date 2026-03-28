@@ -20,7 +20,7 @@
     
 		<button class="right-header">
 			<img src="../../assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "arrow-back-black-icon">
-			<span>Seguir comprando</span>
+			<span><a href="http://127.0.0.1:5500/index.html">Seguir comprando</a></span>
 		</button>
   </header>	
 
@@ -34,16 +34,13 @@
 	<div class = "cart-page">
 		<div id="cart-table">
 			<!--CAMPOS DE LA TABLA-->
-			<div class="cart-header-row">
-				<span>Producto</span>
-				<div class = "cart-header-row-right">
-					<span>Envío</span>
-    			<span>Precio</span>
-    			<span>Cantidad</span>
-    			<span>Total</span>
-				</div>
-
-			</div>
+    <div class="cart-header-row">
+        <span>Producto</span>
+        <span>Envío</span>
+        <span>Precio</span>
+        <span>Cantidad</span>
+        <span>Total</span>
+    </div>
 
 			<div id = "cart-items-container">
 
@@ -69,15 +66,15 @@
 	</div>
 
 	<div class="payment-overlay" id="payment-overlay">
-  <div class="payment-modal">
-    <img src="../../assets/check_circle.png"/>		
-		<h3>¡Pago exitoso!</h3>
-		<p>Su transacción ha sido completada</p>
-		<button id="btn-done"> Aceptar</button>
-    <a href="../../index.html">Seguir comprando</a>
-  </div>
+    <div class="payment-modal">
+      <img src="../../assets/check_circle.png"/>		
+      <h3>¡Pago exitoso!</h3>
+      <p>Su transacción ha sido completada</p>
+      <button id="btn-done"> Aceptar</button>
+      <a href="../../index.html">Seguir comprando</a>
+    </div>
 </div>
-
+  <script src ="cart-summary.js"></script>
 	
 </body>
 </html>
