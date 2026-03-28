@@ -114,7 +114,10 @@
     "nombre": "BLUE AGATE BEADED NECKLACE",
     "imagen": "https://malandra.mx/cdn/shop/files/blue-agate-beaded-necklace-collares-tc2300eyhc13-taller-5545472.png?v=1773921552&width=5000",
     "precio": 83.5,
-    "categoria": "collares",
+    "categoria": [
+      "collares",
+      "new-arrivals"
+    ],
     "stock": 3
   },
   {
@@ -122,15 +125,54 @@
     "nombre": "SOFT MORGANITE BEADED NECKLACE",
     "imagen": "https://malandra.mx/cdn/shop/files/soft-morganite-beaded-necklace-collares-tc2303-eyhc13-taller-2982417.png?v=1773921559&width=5000",
     "precio": 87.2,
-    "categoria": "collares",
+    "categoria": [
+      "collares",
+      "new-arrivals"
+    ],
     "stock": 2
+  },
+  {
+    "id": "tiger-eye-beaded-01",
+    "nombre": "TIGER EYE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/tiger-eye-beaded-necklace-collares-tc2290-eyhc13-taller-2867704.png?v=1773921552&width=5000",
+    "precio": 87.5,
+    "categoria": [
+      "collares",
+      "new-arrivals"
+    ],
+    "stock": 3
+  },
+  {
+    "id": "red-coral-01",
+    "nombre": "RED CORAL BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/red-coral-beaded-necklace-collares-tc2291-eyhc13-taller-6765375.png?v=1773921559&width=5000",
+    "precio": 103,
+    "categoria": [
+      "collares",
+      "new-arrivals"
+    ],
+    "stock": 2
+  },
+  {
+    "id": "cinnabar-jade-01",
+    "nombre": "CINNABAR JADE BEADED NECKLACE",
+    "imagen": "https://malandra.mx/cdn/shop/files/cinnabar-jade-beaded-necklace-collares-tc2292-eyhc13-taller-3298253.png?v=1773921557&width=5000",
+    "precio": 83.60,
+    "categoria": [
+      "collares",
+      "new-arrivals"
+    ],
+    "stock": 3
   },
   {
     "id": "radiant-cross-01",
     "nombre": "RADIANT CROSS SPARK HOOPS",
     "imagen": "https://malandra.mx/cdn/shop/files/radiant-cross-spark-hoops-aretes-fba500-1ear0244-1rr-2-fb-5136385.png?v=1773160424&width=5000",
     "precio": 115,
-    "categoria": "aretes",
+    "categoria": [
+      "aretes",
+      "plata-925"
+    ],
     "stock": 2
   },
   {
@@ -138,7 +180,10 @@
     "nombre": "MILANO BRILLIANT HOOPS",
     "imagen": "https://malandra.mx/cdn/shop/files/milano-brilliant-hoops-aretes-fba499-1ear0240-1rr-2-fb-5695726.png?v=1773160425&width=5000",
     "precio": 83.9,
-    "categoria": "aretes",
+    "categoria": [
+      "aretes",
+      "plata-925"
+    ],
     "stock": 2
   },
   {
@@ -146,7 +191,10 @@
     "nombre": "CRYSTAL SPARK GLAM HOOPS",
     "imagen": "https://malandra.mx/cdn/shop/files/crystal-spark-glam-hoops-aretes-fba498-1ear0237-1rr-2-fb-4044066.png?v=1773160426&width=5000",
     "precio": 87.9,
-    "categoria": "aretes",
+    "categoria": [
+      "aretes",
+      "plata-925"
+    ],
     "stock": 2
   },
   {
@@ -154,7 +202,10 @@
     "nombre": "MILANO SWEETHEART EARRINGS",
     "imagen": "https://malandra.mx/cdn/shop/files/milano-sweetheart-earrings-aretes-fba496-1ear0194-1rr-2-fb-3445863.png?v=1773160426&width=5000",
     "precio": 68.2,
-    "categoria": "aretes",
+    "categoria": [
+      "aretes",
+      "plata-925"
+    ],
     "stock": 1
   },
   {
@@ -162,7 +213,10 @@
     "nombre": "DIVINE SPARK CROSS EARRINGS",
     "imagen": "https://malandra.mx/cdn/shop/files/divine-spark-cross-earrings-aretes-fba495-1ear0184-1rr-2-fb-5428776.png?v=1773160426&width=5000",
     "precio": 115,
-    "categoria": "aretes",
+    "categoria": [
+      "aretes",
+      "plata-925"
+    ],
     "stock": 3
   },
   {
@@ -327,7 +381,7 @@
   {
     "id": "ring-classic-milano-06",
     "nombre": "CLASSIC SPARK MILANO RING",
-    "imagen": "https://malandra.mx/cdn/shop/files/classic-spark-milano-ring.pnghttps://malandra.mx/cdn/shop/files/classic-spark-milano-ring-anillos-fbr4867-1ean0002-r7-p-fb-5452519.png?v=1773160432&width=5000",
+    "imagen": "https://malandra.mx/cdn/shop/files/classic-spark-milano-ring-anillos-fbr4867-1ean0002-r7-p-fb-5452519.png?v=1773160432&width=5000",
     "precio": 133.4,
     "categoria": [
       "plata-925",
@@ -366,5 +420,11 @@
     "precio": 57.9,
     "categoria": "anillos",
     "stock": 3
+  },
+  {
+    "id": "bolsa-gift-01",
+    "nombre": "BOLSA DE REGALO",
+    "imagen": "https://malandra.mx/cdn/shop/products/bolsa-de-regalo-gift-wrap-bolsach-malandra-jewelry-128250.jpg?v=1686601328&width=5000",
+    "precio": 6
   }
 ]

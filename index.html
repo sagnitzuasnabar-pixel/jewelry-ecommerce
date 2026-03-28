@@ -36,7 +36,7 @@
       <button class = "bag-btn" id ="open-cart">
         <div class="bag-wrapper">
           <img src="./assets/shopping_bag_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt="shoppin-bag-icon" />
-          <span>0</span>
+          <span class ="cart-item-count">0</span>
         </div>  
       </button>
       </div>  
@@ -44,7 +44,7 @@
   </header>
 
   <main>
-      <section class = "hero-slider"></section>
+    <section class = "hero-slider"></section>
     
     <div class = "hero-slider-track">
         <div class = "slider-track">
@@ -66,65 +66,19 @@
         </div>  
     </div>
     
-    <section class = "new-arrivals">
+    <section class = "carousel" data-categoria = "new-arrivals">
       <div class = "new-arrivals-header">
-        <button><img src = "./assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
+        <button class="btn-prev"><img src = "./assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
         <h3>NEW ARRIVALS</h3>
-        <button><img src = "./assets/arrow_forward_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
+        <button class="btn-next"><img src = "./assets/arrow_forward_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
       </div>
 
       <a class = "new-arrivals-link" href = "http://127.0.0.1:5500/index.html">VER TODOS</a>
 
-      <div class = "new-arrivals-grid">
-        <article class = "product-card">
-        <span>3 disponibles</span>
-        <img src="https://malandra.mx/cdn/shop/files/SUNSTONEBEADEDNECKLACE.png?v=1773846710&width=5000" alt = "collar-suntsone"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>SUNSTONE BEADED NECKLACE</p>
-        <span>S/. 83.90</span>
-        </article>
-
-        <article class = "product-card">
-        <span>2 disponibles</span>
-        <img src="https://malandra.mx/cdn/shop/files/GREENAGATEBEADEDNECKLACE.png?v=1773846921&width=5000" alt = "collar-green"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>GREEN BEADED NECKLACE</p>
-        <span>S/. 83.90</span>
-        </article>
-
-        <article class = "product-card">
-        <span>3 disponibles</span>
-        <img src="https://malandra.mx/cdn/shop/files/MALACHITEBEADEDNECKLACE.png?v=1773846854&width=5000" alt = "collar-malachite"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>MALACHITE BEADED NECKLACE</p>
-        <span>S/. 83.90</span>
-        </article>
-
-        <article class = "product-card">
-        <span>2 disponibles</span>
-        <img src="https://malandra.mx/cdn/shop/files/PEARLBEADEDNECKLACE.png?v=1773846811&width=5000" alt = "collar-perla"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>PEARL BEADED NECKLACE</p>
-        <span>S/. 88.90</span>
-        </article>
-
-        <article class = "product-card">
-        <span>3 disponibles</span>
-        <img src="https://malandra.mx/cdn/shop/files/AQUAMARINEBEADEDNECKLACE.png?v=1773847117&width=5000" alt = "collar-aquamarine"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>AQUAMARINE   BEADED NECKLACE</p>
-        <span>S/. 88.90</span>
-        </article>
+      <div class="carousel-outer">
+        <div class="carousel-track">
+          <!--Completado en index.js de la categoria "new-arrivals"-->
+        </div>
       </div>
     </section>
 
@@ -154,7 +108,7 @@
     </section>
 
     <section class="scene">
-      <div class="carousel" id="carousel">
+      <div class="carousel-dinamic" >
 
         <div class="card card-far-left">
           <img src="https://i.pinimg.com/736x/96/11/b4/9611b4c16db61946c9d4851999c77e84.jpg" alt="coleccion 1">
@@ -183,85 +137,27 @@
 
       </div>
 
-      <button class="btn-prev" id="prev"><img class ="arrow-carrusel" src = "./assets/arrow_back_ios_24dp_FFFFFF_FILL0_wght200_GRAD0_opsz24.svg" /></button>
-      <button class="btn-next" id="next"><img class ="arrow-carrusel" src = "./assets/arrow_forward_ios_24dp_FFFFFF_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
+      <button class ="arrow-carrusel-left-prev"><img  src = "./assets/arrow_back_ios_24dp_FFFFFF_FILL0_wght200_GRAD0_opsz24.svg" /></button>
+      <button class ="arrow-carrusel-next"><img  src = "./assets/arrow_forward_ios_24dp_FFFFFF_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
     </section>
 
     <section class = "hero-infinite-luck">
       <img src = "https://malandra.mx/cdn/shop/files/inifnite_banner_web2_jpg.jpg?v=1772815286&width=1600" alt ="image of infinite luck jelweries"/>
     </section>
 
-    <section class = "new-arrivals">
+    <section class = "carousel" data-categoria="plata-925">
       <div class = "new-arrivals-header">
-        <button><img src = "./assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
+        <button class="btn-prev"><img src = "./assets/arrow_back_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
         <h3>PLATA .925</h3>
-        <button><img src = "./assets/arrow_forward_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
+        <button class="btn-next"><img src = "./assets/arrow_forward_ios_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" /> </button>
       </div>
 
       <a class = "new-arrivals-link" href = "http://127.0.0.1:5500/index.html">VER TODOS</a>
 
-      <div class = "new-arrivals-grid">
-        <article class = "product-card product-card-2">
-          <div class = "badge-plata-925">
-            <span>Plata .925</span>
-            <span>2 disponibles</span>
-          </div>
-          <img src="https://malandra.mx/cdn/shop/files/crystal-spark-tennis-bracelet-pulseras-fbp510-1epu0071-1rp-2-fb-8162665.png?v=1773160420&width=5000" alt = "collar-suntsone"/>
-          <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>CRYSTAL SPARK TENNIS BRACELET</p>
-        <span>S/. 171.50</span>
-        </article>
-
-        <article class = "product-card">
-        <div class = "badge-plata-925">
-            <span>Plata .925</span>
-          </div>
-        <img src="https://malandra.mx/cdn/shop/files/trinity-cross-spark-bracelet-pulseras-fbp509-1epu0065-1rp-2-fb-6068676.png?v=1773160423&width=5000" alt = "collar-green"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>TRINITY CROSS SPARK BRACELET</p>
-        <span>S/. 121.20</span>
-        </article>
-
-        <article class = "product-card">
-          <div class = "badge-plata-925">
-            <span>Plata .925</span>
-            <span>2 disponibles</span>
-          </div>
-        <img src="https://malandra.mx/cdn/shop/files/cross-duo-spark-necklace-collares-fbc507-1ecl0071-1rp-2-fb-2697715.png?v=1773160423&width=5000" alt = "collar-malachite"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>CROSS DUO SPARK NECKLACE</p>
-        <span>S/. 121.20</span>
-        </article>
-
-        <article class = "product-card">
-          <div class = "badge-plata-925">
-            <span>Plata .925</span>
-          </div>
-        <img src="https://malandra.mx/cdn/shop/files/twinkle-star-spark-necklace-collares-fbc506-1ecl0068-1rp-2-fb-7925339.png?v=1773397688&width=5000" alt = "collar-perla"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>TWINKLE STAR SPARK NECKLACE</p>
-        <span>S/. 121.20</span>
-        </article>
-
-        <article class = "product-card">
-          <div class = "badge-plata-925">
-            <span>Plata .925</span>
-          </div>
-        <img src="https://malandra.mx/cdn/shop/files/double-heart-spark-necklace-collares-fbc505-1ecl0066-1rp-2-fb-6628439.png?v=1773160422&width=5000" alt = "collar-aquamarine"/>
-        <button class = "shopping-cart" >
-          <img src = "./assets/shopping_cart_24dp_000000_FILL0_wght200_GRAD0_opsz24.svg" alt = "shopping-cart-icon"/>
-        </button>
-        <p>DOUBLE HEART SPARK NECKLACE </p>
-        <span>S/. 132.80</span>
-        </article>
+      <div class = "carousel-outer">
+        <div class = "carousel-track">
+          <!--Completado en index.js de la categoria "plata-925"-->
+        </div>
       </div>
     </section>
 
@@ -364,50 +260,55 @@
       </footer>
     </div>
   </main>
-  
-    <div class="cart-drawer" id="cart-drawer">
-      
-      <div class="cart-drawer-header">
-        <h2>Carrito</h2>
-        <button id="close-cart">X</button>
-      </div>
+    
+  <!--Carrito-Vista-Previa-->
+  <div class="cart-drawer" id="cart-drawer">
 
-      <div class="cart-drawer-body" id="cart-body">
-        <p>¡Agrega S/. 230 para obtener un <strong>Envío GRATIS!</strong></p>
-        <div class="shipping-progress">
-          <div class="shipping-bar">
-            <div class="shipping-bar-fill"></div>
-          </div>
-        
-          <div class="shipping-icon">
-            <img src="../../assets/delivery_truck_speed_24dp_6E6E6E_FILL0_wght200_GRAD0_opsz24.svg" alt="envio"/>
-          </div>
-          <span id="shipping-label">ENVÍO GRATIS</span>
-        </div>
+    <div class="cart-drawer-header">
+      <h2>Carrito</h2>
+      <button id="close-cart">X</button>
+    </div>
 
- 
-        <div class = "cart-container">
-          <p id = "empty-cart" >!No hay productos en tu carrito!</p>
-        </div>
-      </div>
+    <div class="cart-drawer-body">
+      <p id="shipping-msg">¡Agrega <strong>S/. 230.00</strong> para obtener un <strong>Envío GRATIS!</strong></p>
 
-      <div class ="cart-drawer-footer">
-        <div class="gift-bag">
-          <p>Hazlo aún más especial con bolsa de regalo</p>
-          <h3>Agrega una Bolsa de Regalo</h3>
-          <div class = "gift-bag-product">
-            <img src = "https://cdn.shopify.com/s/files/1/2128/7599/products/bolsa-de-regalo-gift-wrap-bolsach-malandra-jewelry-128250.jpg?v=1686601328&height=180" alt ="shopping-bag-gift" />
-            <div class ="gift-bag-info">
-              <h5>BOLSA DE REGALO</h5>
-              <span>S/. 6.00</span>
-              <button class="btn-add-gift">Add</button>
-            </div>
-          </div>
-        </div>
+      <div class="cart-container">
+        <p id="empty-cart">¡No hay productos en tu carrito!</p>
       </div>
     </div>
-    
-    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Visible solo cuando hay productos -->
+    <div class="cart-drawer-footer" id="cart-footer" style="display:none;">
+      <ul class="trust-badges">
+        <li>
+          <img src="assets/medal.png" alt="garantia"/>
+          30 días de garantía asegurada
+        </li>
+        <li>
+          <img src="assets/refund.png" alt="refund-icon"/>
+          10 días para cambios y devoluciones gratis
+        </li>
+        <li>
+          <img src="assets/lock_24dp_000000_FILL0_wght300_GRAD0_opsz24.svg" alt="lock"/>
+          Compra cifrada y segura
+        </li>
+        <li>Los regalos no son acumulables</li>
+        <li>La tarifa de envío se calcula en checkout.</li>
+      </ul>
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span class="cart-subtotal-amount">S/. 0.00</span>
+      </div>
+      <button class="btn-checkout" id="btn-checkout" onclick="alert('Redirigiendo al checkout...')">
+        Ir a pagar
+      </button>
+    </div>
+
+  </div>
+
+  <div class="cart-overlay" id="cart-overlay"></div>
 </body>
+  <script src = "index.js"></script>
   <script src = "./cart-drawer/product.js"></script>
+  
 </html>
