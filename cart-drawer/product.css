@@ -210,7 +210,7 @@
  
 }
 
-/* ── CART DRAWER ─────────────────────────────────────────────── */
+/* CART DRAWER*/
 .cart-drawer {
     position: fixed;
     top: 0;
@@ -236,7 +236,7 @@
 }
 .cart-overlay.open { display: block; }
 
-/* ── HEADER ───────────────────────────────────────────────────── */
+/*HEADER*/
 .cart-drawer-header {
     display: flex;
     justify-content: space-between;
@@ -260,7 +260,7 @@
     justify-content: center;
 }
 
-/* ── BODY (scrolleable) ───────────────────────────────────────── */
+/*.cart-drawer-BODY*/
 .cart-drawer-body {
     padding: 25px;
     display: flex;
@@ -276,7 +276,7 @@
   font-size: 12px;
 }
 
-/* ── CART CONTAINER ──────────────────────────────────────────── */
+/* CART CONTAINER*/
 .cart-container {
     display: flex;
     flex-direction: column;
@@ -289,7 +289,7 @@
     padding: 40px 0;
 }
 
-/* ── CART BOX ────────────────────────────────────────────────── */
+/*CART BOX*/
 .cart-box {
     display: flex;
     gap: 12px;
@@ -342,7 +342,7 @@
 .cart-remove-btn { background: none; border: none; cursor: pointer; padding: 4px; }
 .cart-remove-btn img { width: 18px; height: 18px; }
 
-/* ── FOOTER (subtotal + botón + badges) ──────────────────────── */
+/*FOOTER (subtotal + botón + badges)*/
 .cart-drawer-footer {
     padding: 16px 25px 20px;
     border-top: 1px solid #ebebeb;
@@ -351,7 +351,7 @@
     gap: 10px;
 }
 
-/* ── TRUST BADGES ────────────────────────────────────────────── */
+/* TRUST BADGES*/
 .trust-badges {
     list-style: none;
     margin: 0 0 8px;
@@ -369,7 +369,7 @@
 .trust-badges li img {
   width: 20px;  
 }
-/* ── SUBTOTAL ────────────────────────────────────────────────── */
+/*CART-SUBTOTAL*/
 .cart-subtotal {
     display: flex;
     justify-content: space-between;
@@ -379,7 +379,6 @@
 }
 .cart-subtotal span { font-size: 14px; font-weight: 500; }
 
-/* ── BOTÓN IR A PAGAR ────────────────────────────────────────── */
 .btn-checkout {
     width: 100%;
     padding: 14px 25px;
