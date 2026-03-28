@@ -112,52 +112,52 @@
         </section>
       </div>
     </section>
-  
+  </main>
     <div class="cart-drawer" id="cart-drawer">
-      
-      <div class="cart-drawer-header">
-        <h2>Carrito</h2>
-        <button id="close-cart">X</button>
-      </div>
 
-      <div class="cart-drawer-body" id="cart-body">
-        <p>¡Agrega S/. 230 para obtener un <strong>Envío GRATIS!</strong></p>
-        <div class="shipping-progress">
-          <div class="shipping-bar">
-            <div class="shipping-bar-fill"></div>
-          </div>
-        
-          <div class="shipping-icon">
-            <img src="../../assets/delivery_truck_speed_24dp_6E6E6E_FILL0_wght200_GRAD0_opsz24.svg" alt="envio"/>
-          </div>
-          <span id="shipping-label">ENVÍO GRATIS</span>
-        </div>
+    <div class="cart-drawer-header">
+      <h2>Carrito</h2>
+      <button id="close-cart">X</button>
+    </div>
 
- 
-        <div class = "cart-container">
-          <p id = "empty-cart" >!No hay productos en tu carrito!</p>
-        </div>
-      </div>
+    <div class="cart-drawer-body">
+      <p id="shipping-msg">¡Agrega <strong>S/. 230.00</strong> para obtener un <strong>Envío GRATIS!</strong></p>
 
-      <div class ="cart-drawer-footer">
-        <div class="gift-bag">
-          <p>Hazlo aún más especial con bolsa de regalo</p>
-          <h3>Agrega una Bolsa de Regalo</h3>
-          <div class = "gift-bag-product">
-            <img src = "https://cdn.shopify.com/s/files/1/2128/7599/products/bolsa-de-regalo-gift-wrap-bolsach-malandra-jewelry-128250.jpg?v=1686601328&height=180" alt ="shopping-bag-gift" />
-            <div class ="gift-bag-info">
-              <h5>BOLSA DE REGALO</h5>
-              <span>S/. 6.00</span>
-              <button class="btn-add-gift">Add</button>
-            </div>
-          </div>
-        </div>
+      <div class="cart-container">
+        <p id="empty-cart">¡No hay productos en tu carrito!</p>
       </div>
     </div>
-    
-    <div class="cart-overlay" id="cart-overlay"></div>
 
-  </main>
+    <!-- Visible solo cuando hay productos -->
+    <div class="cart-drawer-footer" id="cart-footer" style="display:none;">
+      <ul class="trust-badges">
+        <li>
+          <img src="assets/medal.png" alt="garantia"/>
+          30 días de garantía asegurada
+        </li>
+        <li>
+          <img src="assets/refund.png" alt="refund-icon"/>
+          10 días para cambios y devoluciones gratis
+        </li>
+        <li>
+          <img src="assets/lock_24dp_000000_FILL0_wght300_GRAD0_opsz24.svg" alt="lock"/>
+          Compra cifrada y segura
+        </li>
+        <li>Los regalos no son acumulables</li>
+        <li>La tarifa de envío se calcula en checkout.</li>
+      </ul>
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span class="cart-subtotal-amount">S/. 0.00</span>
+      </div>
+      <button class="btn-checkout" id="btn-checkout" onclick="alert('Redirigiendo al checkout...')">
+        Ir a pagar
+      </button>
+    </div>
+
+  </div>
+
+  <div class="cart-overlay" id="cart-overlay"></div>
 
 </body>
 
